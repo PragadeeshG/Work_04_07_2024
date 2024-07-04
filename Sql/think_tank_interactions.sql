@@ -1,0 +1,15 @@
+create table if not exists think_tank_interactions(
+interaction_code Integer not null,
+company_case_studystudy_refrences_ref varchar(255) null,
+study_refrences_valid char null,
+content_code Integer null,
+content varchar(255) null,
+metadata varchar(255) null,
+key_identifier Integer null,
+secret_code Integer null,
+key_rotation_client varchar(255) null,
+interacton_reference Integer null,
+key_rotation_schedule varchar(255) null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint think_tank_interactions_pk primary key(interaction_code));
